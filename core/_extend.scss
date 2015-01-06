@@ -1,0 +1,12 @@
+.overflowclearfix:before,
+.overflowclearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.overflowclearfix:after {
+    clear: both;
+}
+.overflowclearfix {
+    *zoom: 1;
+}

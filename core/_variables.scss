@@ -1,0 +1,68 @@
+//Core
+$golden: 0.618;
+$spacing: 20px;
+$spacing-half: $spacing / 2;
+$spacing-quarter: $spacing / 4;
+
+// Typography
+$h1-size: 32px;
+$h2-size: 28px;
+$h3-size: 24px;
+$h4-size: 20px;
+$h5-size: 18px;
+$h6-size: 15px;
+$paragraph-size: 15px;
+
+// Colors
+$turquoise: #1abc9c;
+$turquoise-dark: #16a085;
+
+$green: #27ae60;
+$green-light: #2ecc71;
+
+$blue-light: #3498db;
+$blue: #2980b9;
+
+$purple-light: #9b59b6;
+$purple: #8e44ad;
+
+$stone-light: #34495e;
+$stone: #2c3e50;
+
+$yellow: #f1c40f;
+$yellow-dark: #f39c12;
+
+$orange: #e67e22;
+$orange-muted: #d35400;
+
+$red: #e74c3c;
+$red-dark: #c0392b;
+
+$white: #fff;
+$gray-light: #ecf0f1;
+$gray: #bdc3c7;
+$gray-dark: #95a5a6;
+$gray-darker: #7f8c8d;
+$black: #444; // <- its all lies! Muhaahaha!
+$jet-black: #000;
+
+$color-facebook: #3b5998;
+$color-twitter: #55acee;
+$color-linkedin: #0e76a8;
+$color-google-plus: #dd4b39;
+
+// Typography
+$color-text: $black;
+$color-primary: $blue;
+$color-primary-text: $white;
+$color-primary-text-link: $white;
+
+$color-link: $blue;
+$color-link-visited: $blue;
+
+// Box
+$default-border-radius: 4px;
+
+// Animation
+$animation-speed: 200ms;
+$animation-ease: ease-in-out;

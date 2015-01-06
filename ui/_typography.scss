@@ -1,0 +1,55 @@
+// @fontface
+// ---------
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: $paragraph-size;
+  color: $color-text;
+}
+
+h1, .h1 {
+  font-size: $h1-size;
+}
+
+h2, .h2 {
+  font-size: $h2-size;
+}
+
+h3, .h3 {
+  font-size: $h3-size;
+}
+
+h4, .h4 {
+  font-size: $h4-size;
+}
+
+h5, .h5 {
+  font-size: $h5-size;
+}
+
+h6, .h6 {
+  font-size: $h6-size;
+}
+
+a {
+  color: $color-link;
+  &:visited {
+    color: $color-link-visited;
+  }
+}
+
+.text--centered {
+  text-align: center;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.text--left {
+  text-align: left;
+}
+
+.text--uppercase {
+  text-transform: uppercase;
+}
